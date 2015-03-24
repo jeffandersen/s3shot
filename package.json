@@ -1,0 +1,30 @@
+{
+  "name": "s3shot",
+  "version": "0.0.1",
+  "description": "Utility to upload your latest screenshot to a configured Amazon S3 bucket.",
+  "main": "./lib/index.js",
+  "bin": "./bin/s3shot",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jeffandersen/s3shot.git"
+  },
+  "keywords": [
+    "s3",
+    "screenshot",
+    "upload"
+  ],
+  "author": "Jeff Andersen <@jeffandersen>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffandersen/s3shot/issues"
+  },
+  "homepage": "https://github.com/jeffandersen/s3shot",
+  "dependencies": {
+    "aws-sdk": "^2.1.19",
+    "open": "0.0.5",
+    "watch": "^0.14.0"
+  }
+}

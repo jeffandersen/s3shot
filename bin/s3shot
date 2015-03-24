@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var env = process.env;
+var HOME_DIR = env.HOME || env.HOMEPATH || env.USERPROFILE;
+
+var path = require('path');
+var configPath = path.join(HOME_DIR, 's3shot.json');
+
+var S3Shot = require('../lib/index');
+var config = require(configPath);
+
+var uploader = new S3Shot(config);
+uploader.configure().watch();

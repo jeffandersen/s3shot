@@ -1,0 +1,9 @@
+{
+  "accessKey": "",
+  "secretAccessKey": "",
+  "bucket": "",
+  "type": "image/png",
+  "directory": "/Users/my-username/Desktop",
+  "prefix": "Screen Shot",
+  "autoOpen": true
+}
