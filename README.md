@@ -1,6 +1,8 @@
 # s3shot
 Utility to upload your latest screenshot to a configured Amazon S3 bucket.
 
+Developed for OS X Yosemite. Your mileage may vary.
+
 ### Installation
 
 ```
