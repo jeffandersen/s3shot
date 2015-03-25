@@ -23,8 +23,9 @@
   },
   "homepage": "https://github.com/jeffandersen/s3shot",
   "dependencies": {
-    "aws-sdk": "^2.1.19",
+    "aws-sdk": "2.1.19",
+    "lwip": "0.0.6",
     "open": "0.0.5",
-    "watch": "^0.14.0"
+    "watch": "0.14.0"
   }
 }

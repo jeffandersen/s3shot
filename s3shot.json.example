@@ -6,5 +6,6 @@
   "directory": "/Users/my-username/Desktop",
   "prefix": "Screen Shot",
   "autoOpen": true,
-  "deleteAfterUpload": true
-"
+  "deleteAfterUpload": true,
+  "scaleImages": true
+}
