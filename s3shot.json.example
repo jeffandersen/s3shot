@@ -5,7 +5,10 @@
   "type": "image/png",
   "directory": "/Users/my-username/Desktop",
   "prefix": "Screen Shot",
-  "autoOpen": true,
+  "autoOpen": false,
   "deleteAfterUpload": true,
-  "scaleImages": true
+  "scaleImages": true,
+  "playSound": true,
+  "notification": true,
+  "soundFile": "/System/Library/Sounds/Glass.aiff"
 }
